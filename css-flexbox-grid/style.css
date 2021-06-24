@@ -45,12 +45,15 @@ body {
 .rate-Div {
     background-color: white;
     text-decoration: gray;
+    height: 12px;
+    display: flex;
 }
 
 .phone {
     background-color: lightgreen;
     margin: 0;
     width: 125px;
+    
 }
 
 .email {
@@ -91,6 +94,11 @@ main {
     display: none;
 }
 
+.description-container p {
+    border-left: 6px solid green;
+    
+}
+
 @media only screen and (min-width: 600px) {
     main {
       display: grid;
@@ -116,14 +124,17 @@ main {
 
     .rate-Div {
         grid-area: offer;
-        background-color: lightgray;
+        background-color: white;
         display: flex;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
         
         
     }
     
 }
+
 
 
 
